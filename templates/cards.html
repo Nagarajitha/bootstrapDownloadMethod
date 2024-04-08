@@ -1,0 +1,50 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-grid.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap-reboot.min.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.css' %}">
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}">
+</head>
+<body>
+    <center>
+        <h1 class="text-danger">Cards Component </h1>
+    </center>
+<center>
+    <div>
+        <div class="card" style="width: 18rem;">
+            <img src="{% static 'images/msd1.png' %}" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h5 class="card-title">MS Dhoni</h5>
+              <p class="card-text">He was born in Ranchi, Bihar (now Jharkhand), on July 7, 1981. His mother, Devaki Devi, works from home, while his father, Pan Singh, was a junior manager at MECON, a Ministry of Steel PSU.
+
+                He attended school in Shyamali, near Ranchi, Jharkhand. He was an exemplary student-athlete, but he preferred badminton and football. He was his school’s goalkeeper.</p>
+              <a href="#" class="btn btn-primary">Know More</a>
+            </div>
+          </div>
+    </div>
+</center>
+
+<div>
+    <h1>Body</h1>
+    <div class="card">
+        <div class="card-body text-warning bg-dark">
+          This is some text within a card body.
+        </div>
+      </div>
+</div>
+
+
+    <script src="{% static 'js/bootstrap.bundle.js' %}"></script>
+    <script src="{% static 'js/bootstrap.bundle.min.js' %}"></script>
+    <script src="{% static 'js/bootstrap.js' %}"></script>
+    <script src="{% static 'js/bootstrap.min.js' %}"></script>
+</body>
+</html>
